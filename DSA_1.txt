@@ -1,0 +1,12 @@
+DSA-1
+
+DSA- Data Structure & Algorithm
+
+Definition- Data Structure is a way to store and organize data so that it can use efficiently . (e.g- Array, Linked Stack, queue)
+
+Algorithm- Algorithm is a step by step methods to solve problems using data structures . (e.g- Searching, sorting, Shortest path)
+
+
+DSA= How to store data + how to use it smartly to solve the problems
+
+--> In conclusion, DSA is about learning how to arrange data properly and solve problem efficiently. 
