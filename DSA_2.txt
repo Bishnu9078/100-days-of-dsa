@@ -1,0 +1,47 @@
+Analysis of algorithm (Background)
+-----------------------------------
+
+
+Example - sum of n natural numbers
+input: n=3
+output: 6  // 1+2+3
+
+input: n=5
+output: 15 // 1+2+3+4+5
+
+--> There are 3 methods to find out the solutions and those are, 
+
+int fun1(int n)
+   {
+	return n*(n+1)/2;
+   }
+
+
+
+2. int fun2(int n)
+   {
+	int sum= 0;
+	for (int i=1; i<= n; i++)
+	  sum= sum + i;
+	return sum;
+   }
+
+
+
+3. int fun3(int n)
+   {
+	int sum=0;
+	for(int i=1; i<n; i++)
+	  for(int j=1; j<=i; j+)
+	  sum ++;
+	return sum;
+   }
+
+
+
+
+--> When we talk about time taken by program it depends on many factors one from that is on which computer we are running if it is very fast machine it will take less time, another is programming language .
+
+--> We are having two types of languages C & C++ language those are compiled language and python & Java belongs to interpreted language . 
+
+--> Interpreted language runs slower than compiled language due to run line by line by the interpreter . 
